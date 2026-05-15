@@ -424,3 +424,4 @@ elif klasa == "CZARODZIEJ":
     brońA = "miecz krotki"
     brońAobr = 6
 # test
+# test 
