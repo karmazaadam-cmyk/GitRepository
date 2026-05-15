@@ -8,8 +8,7 @@ percepcje = 0
 print("Pisz wszystko łącznie")
 print("Zagrajmy w Dungeons and Dragons")
 while ok == 0:
-    najlepsza_statystyka = str(input("jaka statystyka jest dla ciebie najważniejsza?Wybierz z siła, zręczność, zdrowie, inteligencja, percepcja i charyzma \n")).upper().strip()
-
+    najlepsza_statystyka = str(input("Jaka statystyka jest dla ciebie najważniejsza?Wybierz z siła, zręczność, zdrowie, inteligencja, percepcja i charyzma \n")).upper().strip()
     ok = 1
     if najlepsza_statystyka == "SIŁA":
         print("To masz do wyboru górskiego krasnoluda(+2 do siły + 2 do zdrowia)")
