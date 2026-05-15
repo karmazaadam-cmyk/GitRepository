@@ -8,9 +8,8 @@ percepcje = 0
 print("Pisz wszystko łącznie")
 print("Zagrajmy w Dungeons and Dragons")
 while ok == 0:
-    najlepsza_statystyka = str(input("jaka statystyka jest dla ciebie najważniejsza? Wybierz z siła, zręczność, zdrowie, inteligencja, percepcja i charyzma"))
-    najlepsza_statystyka = najlepsza_statystyka.upper()
-    najlepsza_statystyka = najlepsza_statystyka.strip()
+    najlepsza_statystyka = str(input("jaka statystyka jest dla ciebie najważniejsza?Wybierz z siła, zręczność, zdrowie, inteligencja, percepcja i charyzma \n")).upper().strip()
+
     ok = 1
     if najlepsza_statystyka == "SIŁA":
         print("To masz do wyboru górskiego krasnoluda(+2 do siły + 2 do zdrowia)")
@@ -114,7 +113,7 @@ while ok == 0:
             print("Pewnie zrobileś literówkę")
             ok = 0
 ok = 0
-print("Jedną statystykne możesz ustawić na 8 jedną na 12 a resztę na 10")
+print("Jedną statystykne możesz ustawić na 8 jedną na 12 a resztę na 10 ")
 while ok == 0 and siłe != 8 and siłe != 10 and siłe != 12:
     ok = 1
     siłe = int(input("Na ile ustawiasz siłę?"))
@@ -424,3 +423,4 @@ elif klasa == "CZARODZIEJ":
     print("Masz miecz krótki (K6 obrażeń )")
     brońA = "miecz krotki"
     brońAobr = 6
+# test
